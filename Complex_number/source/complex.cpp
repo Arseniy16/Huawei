@@ -4,7 +4,33 @@
 /* This program contains all nessecary functions and methods of class Complex */
 /* -------------------------------------------------------------------------- */
 
-#include "../include/main.hpp"
+#include <iostream>
+#include <cmath>
+#include "../include/complex.hpp"
+
+Complex::Complex()
+{
+    real = 0;
+    imagine = 0;
+}
+
+Complex::Complex(double x, double y)
+{
+    real = x;
+    imagine = y;
+}
+
+Complex::Complex(const Complex& another)
+{
+    real = another.real;
+    imagine = another.imagine;
+}
+
+Complex::~Complex() 
+{
+    real = 0;
+    imagine = 0;
+}
 
 Complex Complex::operator+ (const Complex &val) const
 {
@@ -187,33 +213,33 @@ Complex Complex::Pairing() const
     return Complex(real, -imagine);
 }
 
-void Complex::Print() const
-{
-    char sign = '+';
-    if (imagine < 0) sign = '-';
-    std::cout << "Complex num = " << real << " " << sign << " i " << fabs(imagine) << std::endl;
-}
-
 //-------------------------------- functions ----------------------------------------
 //-----------------------------------------------------------------------------------
-Complex operator+ (const double num, Complex &val)
+Complex operator+ (const double num, const Complex &val)
 {
     return Complex(num + val.real, val.imagine);
 }
 
-Complex operator- (const double num, Complex &val)
+Complex operator- (const double num, const Complex &val)
 {
     return Complex(num - val.real, -val.imagine);
 }
 
-Complex operator* (const double num, Complex &val)
+Complex operator* (const double num, const Complex &val)
 {
     return Complex(num * val.real, num * val.imagine);
 }
 
-Complex operator/ (const double num, Complex &val)
+Complex operator/ (const double num, const Complex &val)
 {
-    return Complex(num / val.real, 0);
+    double num1 = num * val.real;
+    double num2 = -num * val.imagine;
+    double denom = val.real * val.real + val.imagine * val.imagine;
+
+    double new_real = num1 / denom;
+    double new_imagine = num2 / denom;
+
+    return Complex(new_real, new_imagine);
 }
 
 bool operator== (const double num, const Complex &val)
@@ -234,20 +260,23 @@ bool operator!= (const double num, const Complex &val)
 
 std::ostream & operator<<(std::ostream &out, const Complex &value)
 {
-    char sign = '-';
-    if (value.imagine > 0) sign = '+';
+    if (is_zero(value.imagine))
+        out << value.real;
+    else
+    {
+        char sign = '+';
+        if (value.imagine < 0) sign = '-';
 
-    out << value.real << " " << sign << " i " << fabs(value.imagine) << "\n";
+        if (is_zero(value.real))
+            out << sign << " i " << fabs(value.imagine);
+        else
+            out << value.real << " " << sign << " i " << fabs(value.imagine);
+    }
+
     return out;
 }
 
 bool is_zero (const double val)
 {
-    if (!std::isfinite(val))
-    {
-        std::cout << "ERROR: isfinite == false!\n";
-        return false;
-    }
-    else
-        return (fabs(val) < ACCURACY); 
+    return (fabs(val) < ACCURACY); 
 }

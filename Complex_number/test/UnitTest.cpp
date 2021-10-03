@@ -4,69 +4,19 @@
 /* This program contains all nessecary functions to test Complex_program   */
 /* ----------------------------------------------------------------------- */
 
-#include "../include/main.hpp"
-/**
- * The main function to test all sub_functions
- */
-void UnitTest()
-{
-    init();
-    init_one_arg();
-    init_two_arg();
-    copy_init();
-    destructor();
+#include <iostream>
+#include <cmath>
+#include "../include/complex.hpp"
 
-    plus_value();
-    value_plus();
-    plus_objects();
+//------------------------------------------------
+//--------------- const variables ----------------
+//------------------------------------------------
+const double real1 = 5.432;
+const double imagine1 = -0.91;
 
-    minus_value();
-    value_minus();
-    minus_objects();
-
-    multiply_value();
-    value_multiply();
-    multiply_objects();
-
-    divide_value();
-    value_divide();
-    divide_objects();
-
-    assign_value();
-    assign_object();
-
-    plus_assign_value();
-    plus_assign_object();
-
-    minus_assign_value();
-    minus_assign_object();
-
-    multiply_assign_value();
-    multiply_assign_object();
-
-    divide_assign_value();
-    divide_assign_object();
-
-    equal_object_value();
-    equal_value_object();
-    equal_objects();
-
-    not_equal_object_value();
-    not_equal_value_object();
-    not_equal_objects();
-
-    unary_minus();
-
-    unary_plus();
-
-    module();
-
-    argument();
-
-    pairing();
-
-    return;
-}
+const double real2 = -3;
+const double imagine2 = 8.43;
+//------------------------------------------------
 
 //----------------------------------- init ------------------------------------------
 //-----------------------------------------------------------------------------------
@@ -131,12 +81,6 @@ bool copy_init()
         std::cerr << "TEST copy_init : passed\n";
         return true; 
     }
-}
-
-bool destructor()
-{
-    Complex obj(0xBAD0BAD, imagine1);
-    return true; 
 }
 
 //----------------------------------- plus ------------------------------------------
@@ -328,7 +272,14 @@ bool value_divide()
     Complex obj(real1, imagine1);
     Complex new_obj = real2 / obj; 
 
-    if (!is_zero(new_obj.real - (real2 / obj.real)) || !is_zero(new_obj.imagine))
+    double num1 = real2 * obj.real;
+    double num2 = -real2 * obj.imagine;
+    double denom = obj.real * obj.real + obj.imagine * obj.imagine;
+
+    double new_real = num1 / denom;
+    double new_imagine = num2 / denom;
+
+    if (!is_zero(new_obj.real - new_real) || !is_zero(new_obj.imagine - new_imagine))
     {
         std::cerr << "TEST divide(double / obj) : failed\n";
         return false; 
@@ -349,6 +300,7 @@ bool divide_objects()
     double num1 = obj1.real * obj2.real + obj1.imagine * obj2.imagine;
     double num2 = obj1.imagine * obj2.real - obj1.real * obj2.imagine;
     double denom = obj2.real * obj2.real + obj2.imagine * obj2.imagine;
+
     double new_real = num1 / denom;
     double new_imagine = num2 / denom;
 
@@ -751,4 +703,64 @@ bool pairing()
         std::cerr << "TEST pairing : passed\n";
         return true; 
     }
+}
+
+/**
+ * The main function to test all sub_functions
+ */
+void UnitTest()
+{
+    init();
+    init_one_arg();
+    init_two_arg();
+    copy_init();
+
+    plus_value();
+    value_plus();
+    plus_objects();
+
+    minus_value();
+    value_minus();
+    minus_objects();
+
+    multiply_value();
+    value_multiply();
+    multiply_objects();
+
+    divide_value();
+    value_divide();
+    divide_objects();
+
+    assign_value();
+    assign_object();
+
+    plus_assign_value();
+    plus_assign_object();
+
+    minus_assign_value();
+    minus_assign_object();
+
+    multiply_assign_value();
+    multiply_assign_object();
+
+    divide_assign_value();
+    divide_assign_object();
+
+    equal_object_value();
+    equal_value_object();
+    equal_objects();
+
+    not_equal_object_value();
+    not_equal_value_object();
+    not_equal_objects();
+
+    unary_minus();
+
+    unary_plus();
+
+    module();
+
+    argument();
+
+    pairing();
 }

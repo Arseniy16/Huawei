@@ -1,9 +1,13 @@
-#include "../include/main.hpp"
+#include <iostream>
+#include <cmath>
+#include "../include/complex.hpp"
 
 /**
  * If you want to test Complex_program, uncomment #define TEST!  
  */
-#define TEST
+//#define TEST
+
+extern void UnitTest();
 
 int main()
 {
@@ -39,9 +43,7 @@ int main()
         std::cin >> imagine;
 
         Complex obj(real, imagine);
-
-        obj.Print();
-
+        std::cout << "Complex number = " << obj << std::endl;
         std::cout << "Module = " << obj.Module() << std::endl;
         std::cout << "Argument = " << obj.Argument() << std::endl;
         std::cout << "Pairing = " << obj.Pairing() << std::endl;
