@@ -8,29 +8,13 @@
 #include <cmath>
 #include "../include/complex.hpp"
 
-Complex::Complex()
-{
-    real = 0;
-    imagine = 0;
-}
+Complex::Complex() : real{0}, imagine{0} {}
 
-Complex::Complex(double x, double y)
-{
-    real = x;
-    imagine = y;
-}
+Complex::Complex(double x, double y) : real(x), imagine(y) {}
 
-Complex::Complex(const Complex& another)
-{
-    real = another.real;
-    imagine = another.imagine;
-}
+Complex::Complex(const Complex& obj) : real{obj.real}, imagine{obj.imagine} {}
 
-Complex::~Complex() 
-{
-    real = 0;
-    imagine = 0;
-}
+Complex::~Complex() {} 
 
 Complex Complex::operator+ (const Complex &val) const
 {
