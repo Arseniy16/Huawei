@@ -1,7 +1,7 @@
 /* ----------------------------------------------------------------------- */
 /* ------------------------- UnitTest program ---------------------------- */
 /* ----------------------------------------------------------------------- */
-/* This program contains all nessecary functions to test Complex_program   */
+/* This program contains all necessary functions to test Complex_program   */
 /* ----------------------------------------------------------------------- */
 
 #include <iostream>

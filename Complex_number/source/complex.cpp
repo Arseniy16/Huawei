@@ -1,7 +1,7 @@
 /* -------------------------------------------------------------------------- */
 /* ---------------------------- Complex program ----------------------------- */
 /* -------------------------------------------------------------------------- */
-/* This program contains all nessecary functions and methods of class Complex */
+/* This program contains all necessary functions and methods of class Complex */
 /* -------------------------------------------------------------------------- */
 
 #include <iostream>
@@ -111,32 +111,28 @@ bool Complex::operator== (const Complex &val) const
 {
     if (is_zero(real - val.real) && is_zero(imagine - val.imagine))
         return true;
-    else 
-        return false;
+    return false;
 }
 
 bool Complex::operator!= (const Complex &val) const
 {
     if (!is_zero(real - val.real) || !is_zero(imagine - val.imagine))
         return true;
-    else 
-        return false;
+    return false;
 }
 
 bool Complex::operator== (const double num) const
 {
     if (is_zero(real - num) && is_zero(imagine))
-        return true;
-    else 
-        return false;
+        return true; 
+    return false;
 }
 
 bool Complex::operator!= (const double num) const
 {
     if (!is_zero(real - num) || !is_zero(imagine))
-        return true;
-    else 
-        return false;
+        return true; 
+    return false;
 }
 
 Complex Complex::operator- () const
@@ -229,17 +225,15 @@ Complex operator/ (const double num, const Complex &val)
 bool operator== (const double num, const Complex &val)
 {
     if (is_zero(num - val.real) && is_zero(val.imagine))
-        return true;
-    else 
-        return false;
+        return true; 
+    return false;
 }
 
 bool operator!= (const double num, const Complex &val)
 {
     if (!is_zero(num - val.real) || !is_zero(val.imagine))
-        return true;
-    else 
-        return false;
+        return true; 
+    return false;
 }
 
 std::ostream & operator<<(std::ostream &out, const Complex &value)
