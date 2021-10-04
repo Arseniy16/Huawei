@@ -10,7 +10,7 @@
 
 Complex::Complex() : real{0}, imagine{0} {}
 
-Complex::Complex(double x, double y) : real(x), imagine(y) {}
+Complex::Complex(double x, double y) : real{x}, imagine{y} {}
 
 Complex::Complex(const Complex& obj) : real{obj.real}, imagine{obj.imagine} {}
 
