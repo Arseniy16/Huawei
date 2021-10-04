@@ -10,7 +10,7 @@ struct Complex
 
     Complex();
     
-    Complex(double x, double y = 0);
+    Complex(double x, double y);
 
     Complex(const Complex &another);
 
