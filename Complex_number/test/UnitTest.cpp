@@ -37,7 +37,7 @@ bool init()
 
 bool init_one_arg()
 {
-    Complex obj(real1);
+    Complex obj(real1, 0);
     if (!is_zero(obj.real - real1) || !is_zero(obj.imagine))
     {
         std::cerr << "TEST init_one_arg : failed\n";
