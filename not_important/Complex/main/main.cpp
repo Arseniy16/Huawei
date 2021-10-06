@@ -5,9 +5,9 @@
 /**
  * If you want to test Complex_program, uncomment #define TEST!  
  */
-//#define TEST
+#define TEST
 
-extern void UnitTest();
+void UnitTest();
 
 int main()
 {

@@ -8,6 +8,11 @@
 #include <cmath>
 #include "../include/complex.hpp"
 
+bool is_zero (const double val)
+{
+    return (fabs(val) < ACCURACY_VALUE); 
+}
+
 Complex::Complex() : real{0}, imagine{0} {}
 
 Complex::Complex(double x, double y) : real{x}, imagine{y} {}
@@ -193,8 +198,6 @@ Complex Complex::Pairing() const
     return Complex(real, -imagine);
 }
 
-//-------------------------------- functions ----------------------------------------
-//-----------------------------------------------------------------------------------
 Complex operator+ (const double num, const Complex &val)
 {
     return Complex(num + val.real, val.imagine);
@@ -252,9 +255,4 @@ std::ostream & operator<<(std::ostream &out, const Complex &value)
     }
 
     return out;
-}
-
-bool is_zero (const double val)
-{
-    return (fabs(val) < ACCURACY); 
 }

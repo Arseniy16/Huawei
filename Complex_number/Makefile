@@ -3,9 +3,9 @@ CFLAGS = -O3 -Wall
 
 SOURCE_PATH = source/complex.cpp
 TEST_PATH = test/UnitTest.cpp
-MAIN_PATH = main/main.cpp
+#MAIN_PATH = main/main.cpp
 
-OBJECTS = main.o complex.o UnitTest.o
+OBJECTS = complex.o UnitTest.o
 EXECUTABLE = Complex
 
 .PHONY: all install uninstall clean
@@ -15,8 +15,8 @@ all: $(EXECUTABLE)
 $(EXECUTABLE): $(OBJECTS)
 	$(CC) $(OBJECTS) -o $(EXECUTABLE) 
 
-main.o: $(MAIN_PATH)
-	$(CC) $(CFLAGS) -c $(MAIN_PATH) -o main.o
+#main.o: $(MAIN_PATH)
+#	$(CC) $(CFLAGS) -c $(MAIN_PATH) -o main.o
 
 complex.o: $(SOURCE_PATH)
 	$(CC) $(CFLAGS) -c $(SOURCE_PATH) -o complex.o 

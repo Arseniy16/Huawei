@@ -1,7 +1,7 @@
 #ifndef _INCLUDE_COMPLEX_HPP_
 #define _INCLUDE_COMPLEX_HPP_
 
-const double ACCURACY = 1e-6;
+const double ACCURACY_VALUE = 1e-12;
 
 struct Complex
 {
@@ -61,8 +61,6 @@ Complex operator/ (const double num, const Complex &val);
 
 bool operator== (const double num, const Complex &val);
 bool operator!= (const double num, const Complex &val);
-
-bool is_zero (const double x);
 
 std::ostream & operator<<(std::ostream &out, const Complex &value);
 
