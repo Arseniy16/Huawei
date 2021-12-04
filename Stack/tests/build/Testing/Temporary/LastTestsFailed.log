@@ -1,0 +1,4 @@
+61:StackTest/bool.OperatorAssign
+64:StackTest/bool.CopyCtor
+65:StackTest/bool.MoveCtor
+66:StackTest/bool.StackSwap

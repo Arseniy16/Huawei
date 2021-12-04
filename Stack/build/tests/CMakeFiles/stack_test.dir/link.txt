@@ -1,0 +1,1 @@
+/usr/bin/c++   -pedantic -Wextra -Wall  -Wshadow  -fno-exceptions  -fsanitize=address CMakeFiles/stack_test.dir/test.cpp.o  -o stack_test  ../lib/libgtest_main.a ../lib/libgtest.a -lpthread 

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arseniy/Huawei/Projects/Stack/benchmark/benchmark.cpp
+benchmark/benchmark.h
+-
+stack-impl.hpp
+/home/arseniy/Huawei/Projects/Stack/benchmark/stack-impl.hpp
+stack.hpp
+/home/arseniy/Huawei/Projects/Stack/benchmark/stack.hpp
+

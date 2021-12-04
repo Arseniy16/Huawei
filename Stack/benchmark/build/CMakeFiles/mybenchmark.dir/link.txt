@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/mybenchmark.dir/benchmark.cpp.o CMakeFiles/mybenchmark.dir/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o  -o mybenchmark  /usr/local/lib/libbenchmark.a -lpthread -lrt 

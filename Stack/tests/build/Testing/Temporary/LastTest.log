@@ -1,0 +1,1785 @@
+Start testing: Dec 04 02:13 MSK
+----------------------------------------------------------
+1/66 Testing: StackTest/char.IsEmpty
+1/66 Test: StackTest/char.IsEmpty
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/0.IsEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/char.IsEmpty" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/0.IsEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/0, where TypeParam = char
+[ RUN      ] StackTest/0.IsEmpty
+[       OK ] StackTest/0.IsEmpty (0 ms)
+[----------] 1 test from StackTest/0 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/char.IsEmpty" end time: Dec 04 02:13 MSK
+"StackTest/char.IsEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/66 Testing: StackTest/char.StackPush
+2/66 Test: StackTest/char.StackPush
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/0.StackPush" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/char.StackPush" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/0.StackPush
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/0, where TypeParam = char
+[ RUN      ] StackTest/0.StackPush
+[       OK ] StackTest/0.StackPush (104 ms)
+[----------] 1 test from StackTest/0 (104 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (104 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/char.StackPush" end time: Dec 04 02:13 MSK
+"StackTest/char.StackPush" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/66 Testing: StackTest/char.StackPop
+3/66 Test: StackTest/char.StackPop
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/0.StackPop" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/char.StackPop" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/0.StackPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/0, where TypeParam = char
+[ RUN      ] StackTest/0.StackPop
+[       OK ] StackTest/0.StackPop (66 ms)
+[----------] 1 test from StackTest/0 (66 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (66 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/char.StackPop" end time: Dec 04 02:13 MSK
+"StackTest/char.StackPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/66 Testing: StackTest/char.OperatorEqual
+4/66 Test: StackTest/char.OperatorEqual
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/0.OperatorEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/char.OperatorEqual" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/0.OperatorEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/0, where TypeParam = char
+[ RUN      ] StackTest/0.OperatorEqual
+[       OK ] StackTest/0.OperatorEqual (21 ms)
+[----------] 1 test from StackTest/0 (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (22 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/char.OperatorEqual" end time: Dec 04 02:13 MSK
+"StackTest/char.OperatorEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/66 Testing: StackTest/char.OperatorNotEqual
+5/66 Test: StackTest/char.OperatorNotEqual
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/0.OperatorNotEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/char.OperatorNotEqual" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/0.OperatorNotEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/0, where TypeParam = char
+[ RUN      ] StackTest/0.OperatorNotEqual
+[       OK ] StackTest/0.OperatorNotEqual (18 ms)
+[----------] 1 test from StackTest/0 (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (18 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/char.OperatorNotEqual" end time: Dec 04 02:13 MSK
+"StackTest/char.OperatorNotEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/66 Testing: StackTest/char.OperatorAssign
+6/66 Test: StackTest/char.OperatorAssign
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/0.OperatorAssign" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/char.OperatorAssign" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/0.OperatorAssign
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/0, where TypeParam = char
+[ RUN      ] StackTest/0.OperatorAssign
+[       OK ] StackTest/0.OperatorAssign (40 ms)
+[----------] 1 test from StackTest/0 (40 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (40 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/char.OperatorAssign" end time: Dec 04 02:13 MSK
+"StackTest/char.OperatorAssign" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/66 Testing: StackTest/char.DefaultCtor
+7/66 Test: StackTest/char.DefaultCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/0.DefaultCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/char.DefaultCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/0.DefaultCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/0, where TypeParam = char
+[ RUN      ] StackTest/0.DefaultCtor
+[       OK ] StackTest/0.DefaultCtor (0 ms)
+[----------] 1 test from StackTest/0 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/char.DefaultCtor" end time: Dec 04 02:13 MSK
+"StackTest/char.DefaultCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/66 Testing: StackTest/char.Initialize
+8/66 Test: StackTest/char.Initialize
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/0.Initialize" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/char.Initialize" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/0.Initialize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/0, where TypeParam = char
+[ RUN      ] StackTest/0.Initialize
+[       OK ] StackTest/0.Initialize (50 ms)
+[----------] 1 test from StackTest/0 (50 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (50 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/char.Initialize" end time: Dec 04 02:13 MSK
+"StackTest/char.Initialize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/66 Testing: StackTest/char.CopyCtor
+9/66 Test: StackTest/char.CopyCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/0.CopyCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/char.CopyCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/0.CopyCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/0, where TypeParam = char
+[ RUN      ] StackTest/0.CopyCtor
+[       OK ] StackTest/0.CopyCtor (20 ms)
+[----------] 1 test from StackTest/0 (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (20 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/char.CopyCtor" end time: Dec 04 02:13 MSK
+"StackTest/char.CopyCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/66 Testing: StackTest/char.MoveCtor
+10/66 Test: StackTest/char.MoveCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/0.MoveCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/char.MoveCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/0.MoveCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/0, where TypeParam = char
+[ RUN      ] StackTest/0.MoveCtor
+[       OK ] StackTest/0.MoveCtor (21 ms)
+[----------] 1 test from StackTest/0 (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (22 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/char.MoveCtor" end time: Dec 04 02:13 MSK
+"StackTest/char.MoveCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/66 Testing: StackTest/char.StackSwap
+11/66 Test: StackTest/char.StackSwap
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/0.StackSwap" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/char.StackSwap" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/0.StackSwap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/0, where TypeParam = char
+[ RUN      ] StackTest/0.StackSwap
+[       OK ] StackTest/0.StackSwap (39 ms)
+[----------] 1 test from StackTest/0 (39 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (39 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/char.StackSwap" end time: Dec 04 02:13 MSK
+"StackTest/char.StackSwap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/66 Testing: StackTest/int.IsEmpty
+12/66 Test: StackTest/int.IsEmpty
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/1.IsEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/int.IsEmpty" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/1.IsEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/1, where TypeParam = int
+[ RUN      ] StackTest/1.IsEmpty
+[       OK ] StackTest/1.IsEmpty (0 ms)
+[----------] 1 test from StackTest/1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/int.IsEmpty" end time: Dec 04 02:13 MSK
+"StackTest/int.IsEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/66 Testing: StackTest/int.StackPush
+13/66 Test: StackTest/int.StackPush
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/1.StackPush" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/int.StackPush" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/1.StackPush
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/1, where TypeParam = int
+[ RUN      ] StackTest/1.StackPush
+[       OK ] StackTest/1.StackPush (109 ms)
+[----------] 1 test from StackTest/1 (109 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (109 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/int.StackPush" end time: Dec 04 02:13 MSK
+"StackTest/int.StackPush" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/66 Testing: StackTest/int.StackPop
+14/66 Test: StackTest/int.StackPop
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/1.StackPop" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/int.StackPop" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/1.StackPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/1, where TypeParam = int
+[ RUN      ] StackTest/1.StackPop
+[       OK ] StackTest/1.StackPop (71 ms)
+[----------] 1 test from StackTest/1 (71 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (71 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/int.StackPop" end time: Dec 04 02:13 MSK
+"StackTest/int.StackPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/66 Testing: StackTest/int.OperatorEqual
+15/66 Test: StackTest/int.OperatorEqual
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/1.OperatorEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/int.OperatorEqual" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/1.OperatorEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/1, where TypeParam = int
+[ RUN      ] StackTest/1.OperatorEqual
+[       OK ] StackTest/1.OperatorEqual (29 ms)
+[----------] 1 test from StackTest/1 (29 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (29 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/int.OperatorEqual" end time: Dec 04 02:13 MSK
+"StackTest/int.OperatorEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/66 Testing: StackTest/int.OperatorNotEqual
+16/66 Test: StackTest/int.OperatorNotEqual
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/1.OperatorNotEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/int.OperatorNotEqual" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/1.OperatorNotEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/1, where TypeParam = int
+[ RUN      ] StackTest/1.OperatorNotEqual
+[       OK ] StackTest/1.OperatorNotEqual (27 ms)
+[----------] 1 test from StackTest/1 (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (27 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/int.OperatorNotEqual" end time: Dec 04 02:13 MSK
+"StackTest/int.OperatorNotEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/66 Testing: StackTest/int.OperatorAssign
+17/66 Test: StackTest/int.OperatorAssign
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/1.OperatorAssign" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/int.OperatorAssign" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/1.OperatorAssign
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/1, where TypeParam = int
+[ RUN      ] StackTest/1.OperatorAssign
+[       OK ] StackTest/1.OperatorAssign (47 ms)
+[----------] 1 test from StackTest/1 (47 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (47 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/int.OperatorAssign" end time: Dec 04 02:13 MSK
+"StackTest/int.OperatorAssign" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/66 Testing: StackTest/int.DefaultCtor
+18/66 Test: StackTest/int.DefaultCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/1.DefaultCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/int.DefaultCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/1.DefaultCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/1, where TypeParam = int
+[ RUN      ] StackTest/1.DefaultCtor
+[       OK ] StackTest/1.DefaultCtor (0 ms)
+[----------] 1 test from StackTest/1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/int.DefaultCtor" end time: Dec 04 02:13 MSK
+"StackTest/int.DefaultCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/66 Testing: StackTest/int.Initialize
+19/66 Test: StackTest/int.Initialize
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/1.Initialize" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/int.Initialize" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/1.Initialize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/1, where TypeParam = int
+[ RUN      ] StackTest/1.Initialize
+[       OK ] StackTest/1.Initialize (54 ms)
+[----------] 1 test from StackTest/1 (54 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (55 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/int.Initialize" end time: Dec 04 02:13 MSK
+"StackTest/int.Initialize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/66 Testing: StackTest/int.CopyCtor
+20/66 Test: StackTest/int.CopyCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/1.CopyCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/int.CopyCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/1.CopyCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/1, where TypeParam = int
+[ RUN      ] StackTest/1.CopyCtor
+[       OK ] StackTest/1.CopyCtor (26 ms)
+[----------] 1 test from StackTest/1 (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (26 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/int.CopyCtor" end time: Dec 04 02:13 MSK
+"StackTest/int.CopyCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/66 Testing: StackTest/int.MoveCtor
+21/66 Test: StackTest/int.MoveCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/1.MoveCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/int.MoveCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/1.MoveCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/1, where TypeParam = int
+[ RUN      ] StackTest/1.MoveCtor
+[       OK ] StackTest/1.MoveCtor (25 ms)
+[----------] 1 test from StackTest/1 (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (25 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/int.MoveCtor" end time: Dec 04 02:13 MSK
+"StackTest/int.MoveCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/66 Testing: StackTest/int.StackSwap
+22/66 Test: StackTest/int.StackSwap
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/1.StackSwap" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/int.StackSwap" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/1.StackSwap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/1, where TypeParam = int
+[ RUN      ] StackTest/1.StackSwap
+[       OK ] StackTest/1.StackSwap (48 ms)
+[----------] 1 test from StackTest/1 (48 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (48 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/int.StackSwap" end time: Dec 04 02:13 MSK
+"StackTest/int.StackSwap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/66 Testing: StackTest/long long.IsEmpty
+23/66 Test: StackTest/long long.IsEmpty
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/2.IsEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/long long.IsEmpty" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/2.IsEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/2, where TypeParam = long long
+[ RUN      ] StackTest/2.IsEmpty
+[       OK ] StackTest/2.IsEmpty (0 ms)
+[----------] 1 test from StackTest/2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/long long.IsEmpty" end time: Dec 04 02:13 MSK
+"StackTest/long long.IsEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/66 Testing: StackTest/long long.StackPush
+24/66 Test: StackTest/long long.StackPush
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/2.StackPush" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/long long.StackPush" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/2.StackPush
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/2, where TypeParam = long long
+[ RUN      ] StackTest/2.StackPush
+[       OK ] StackTest/2.StackPush (116 ms)
+[----------] 1 test from StackTest/2 (116 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (116 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/long long.StackPush" end time: Dec 04 02:13 MSK
+"StackTest/long long.StackPush" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/66 Testing: StackTest/long long.StackPop
+25/66 Test: StackTest/long long.StackPop
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/2.StackPop" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/long long.StackPop" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/2.StackPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/2, where TypeParam = long long
+[ RUN      ] StackTest/2.StackPop
+[       OK ] StackTest/2.StackPop (74 ms)
+[----------] 1 test from StackTest/2 (74 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (74 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/long long.StackPop" end time: Dec 04 02:13 MSK
+"StackTest/long long.StackPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/66 Testing: StackTest/long long.OperatorEqual
+26/66 Test: StackTest/long long.OperatorEqual
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/2.OperatorEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/long long.OperatorEqual" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/2.OperatorEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/2, where TypeParam = long long
+[ RUN      ] StackTest/2.OperatorEqual
+[       OK ] StackTest/2.OperatorEqual (55 ms)
+[----------] 1 test from StackTest/2 (55 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (55 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/long long.OperatorEqual" end time: Dec 04 02:13 MSK
+"StackTest/long long.OperatorEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/66 Testing: StackTest/long long.OperatorNotEqual
+27/66 Test: StackTest/long long.OperatorNotEqual
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/2.OperatorNotEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/long long.OperatorNotEqual" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/2.OperatorNotEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/2, where TypeParam = long long
+[ RUN      ] StackTest/2.OperatorNotEqual
+[       OK ] StackTest/2.OperatorNotEqual (41 ms)
+[----------] 1 test from StackTest/2 (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (41 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/long long.OperatorNotEqual" end time: Dec 04 02:13 MSK
+"StackTest/long long.OperatorNotEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/66 Testing: StackTest/long long.OperatorAssign
+28/66 Test: StackTest/long long.OperatorAssign
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/2.OperatorAssign" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/long long.OperatorAssign" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/2.OperatorAssign
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/2, where TypeParam = long long
+[ RUN      ] StackTest/2.OperatorAssign
+[       OK ] StackTest/2.OperatorAssign (63 ms)
+[----------] 1 test from StackTest/2 (63 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (63 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/long long.OperatorAssign" end time: Dec 04 02:13 MSK
+"StackTest/long long.OperatorAssign" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/66 Testing: StackTest/long long.DefaultCtor
+29/66 Test: StackTest/long long.DefaultCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/2.DefaultCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/long long.DefaultCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/2.DefaultCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/2, where TypeParam = long long
+[ RUN      ] StackTest/2.DefaultCtor
+[       OK ] StackTest/2.DefaultCtor (0 ms)
+[----------] 1 test from StackTest/2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/long long.DefaultCtor" end time: Dec 04 02:13 MSK
+"StackTest/long long.DefaultCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/66 Testing: StackTest/long long.Initialize
+30/66 Test: StackTest/long long.Initialize
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/2.Initialize" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/long long.Initialize" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/2.Initialize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/2, where TypeParam = long long
+[ RUN      ] StackTest/2.Initialize
+[       OK ] StackTest/2.Initialize (55 ms)
+[----------] 1 test from StackTest/2 (56 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (56 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/long long.Initialize" end time: Dec 04 02:13 MSK
+"StackTest/long long.Initialize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/66 Testing: StackTest/long long.CopyCtor
+31/66 Test: StackTest/long long.CopyCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/2.CopyCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/long long.CopyCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/2.CopyCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/2, where TypeParam = long long
+[ RUN      ] StackTest/2.CopyCtor
+[       OK ] StackTest/2.CopyCtor (34 ms)
+[----------] 1 test from StackTest/2 (34 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (34 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/long long.CopyCtor" end time: Dec 04 02:13 MSK
+"StackTest/long long.CopyCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/66 Testing: StackTest/long long.MoveCtor
+32/66 Test: StackTest/long long.MoveCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/2.MoveCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/long long.MoveCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/2.MoveCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/2, where TypeParam = long long
+[ RUN      ] StackTest/2.MoveCtor
+[       OK ] StackTest/2.MoveCtor (33 ms)
+[----------] 1 test from StackTest/2 (33 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (33 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/long long.MoveCtor" end time: Dec 04 02:13 MSK
+"StackTest/long long.MoveCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/66 Testing: StackTest/long long.StackSwap
+33/66 Test: StackTest/long long.StackSwap
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/2.StackSwap" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/long long.StackSwap" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/2.StackSwap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/2, where TypeParam = long long
+[ RUN      ] StackTest/2.StackSwap
+[       OK ] StackTest/2.StackSwap (57 ms)
+[----------] 1 test from StackTest/2 (57 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (58 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/long long.StackSwap" end time: Dec 04 02:13 MSK
+"StackTest/long long.StackSwap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/66 Testing: StackTest/float.IsEmpty
+34/66 Test: StackTest/float.IsEmpty
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/3.IsEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/float.IsEmpty" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/3.IsEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/3, where TypeParam = float
+[ RUN      ] StackTest/3.IsEmpty
+[       OK ] StackTest/3.IsEmpty (0 ms)
+[----------] 1 test from StackTest/3 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/float.IsEmpty" end time: Dec 04 02:13 MSK
+"StackTest/float.IsEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/66 Testing: StackTest/float.StackPush
+35/66 Test: StackTest/float.StackPush
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/3.StackPush" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/float.StackPush" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/3.StackPush
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/3, where TypeParam = float
+[ RUN      ] StackTest/3.StackPush
+[       OK ] StackTest/3.StackPush (109 ms)
+[----------] 1 test from StackTest/3 (109 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (109 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/float.StackPush" end time: Dec 04 02:13 MSK
+"StackTest/float.StackPush" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/66 Testing: StackTest/float.StackPop
+36/66 Test: StackTest/float.StackPop
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/3.StackPop" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/float.StackPop" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/3.StackPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/3, where TypeParam = float
+[ RUN      ] StackTest/3.StackPop
+[       OK ] StackTest/3.StackPop (72 ms)
+[----------] 1 test from StackTest/3 (72 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (72 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/float.StackPop" end time: Dec 04 02:13 MSK
+"StackTest/float.StackPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/66 Testing: StackTest/float.OperatorEqual
+37/66 Test: StackTest/float.OperatorEqual
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/3.OperatorEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/float.OperatorEqual" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/3.OperatorEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/3, where TypeParam = float
+[ RUN      ] StackTest/3.OperatorEqual
+[       OK ] StackTest/3.OperatorEqual (32 ms)
+[----------] 1 test from StackTest/3 (32 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (32 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/float.OperatorEqual" end time: Dec 04 02:13 MSK
+"StackTest/float.OperatorEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/66 Testing: StackTest/float.OperatorNotEqual
+38/66 Test: StackTest/float.OperatorNotEqual
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/3.OperatorNotEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/float.OperatorNotEqual" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/3.OperatorNotEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/3, where TypeParam = float
+[ RUN      ] StackTest/3.OperatorNotEqual
+[       OK ] StackTest/3.OperatorNotEqual (26 ms)
+[----------] 1 test from StackTest/3 (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (26 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/float.OperatorNotEqual" end time: Dec 04 02:13 MSK
+"StackTest/float.OperatorNotEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/66 Testing: StackTest/float.OperatorAssign
+39/66 Test: StackTest/float.OperatorAssign
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/3.OperatorAssign" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/float.OperatorAssign" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/3.OperatorAssign
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/3, where TypeParam = float
+[ RUN      ] StackTest/3.OperatorAssign
+[       OK ] StackTest/3.OperatorAssign (48 ms)
+[----------] 1 test from StackTest/3 (48 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (49 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/float.OperatorAssign" end time: Dec 04 02:13 MSK
+"StackTest/float.OperatorAssign" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/66 Testing: StackTest/float.DefaultCtor
+40/66 Test: StackTest/float.DefaultCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/3.DefaultCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/float.DefaultCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/3.DefaultCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/3, where TypeParam = float
+[ RUN      ] StackTest/3.DefaultCtor
+[       OK ] StackTest/3.DefaultCtor (0 ms)
+[----------] 1 test from StackTest/3 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/float.DefaultCtor" end time: Dec 04 02:13 MSK
+"StackTest/float.DefaultCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/66 Testing: StackTest/float.Initialize
+41/66 Test: StackTest/float.Initialize
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/3.Initialize" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/float.Initialize" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/3.Initialize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/3, where TypeParam = float
+[ RUN      ] StackTest/3.Initialize
+[       OK ] StackTest/3.Initialize (55 ms)
+[----------] 1 test from StackTest/3 (55 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (55 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/float.Initialize" end time: Dec 04 02:13 MSK
+"StackTest/float.Initialize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/66 Testing: StackTest/float.CopyCtor
+42/66 Test: StackTest/float.CopyCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/3.CopyCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/float.CopyCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/3.CopyCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/3, where TypeParam = float
+[ RUN      ] StackTest/3.CopyCtor
+[       OK ] StackTest/3.CopyCtor (26 ms)
+[----------] 1 test from StackTest/3 (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (26 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/float.CopyCtor" end time: Dec 04 02:13 MSK
+"StackTest/float.CopyCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/66 Testing: StackTest/float.MoveCtor
+43/66 Test: StackTest/float.MoveCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/3.MoveCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/float.MoveCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/3.MoveCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/3, where TypeParam = float
+[ RUN      ] StackTest/3.MoveCtor
+[       OK ] StackTest/3.MoveCtor (25 ms)
+[----------] 1 test from StackTest/3 (25 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (26 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/float.MoveCtor" end time: Dec 04 02:13 MSK
+"StackTest/float.MoveCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/66 Testing: StackTest/float.StackSwap
+44/66 Test: StackTest/float.StackSwap
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/3.StackSwap" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/float.StackSwap" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/3.StackSwap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/3, where TypeParam = float
+[ RUN      ] StackTest/3.StackSwap
+[       OK ] StackTest/3.StackSwap (49 ms)
+[----------] 1 test from StackTest/3 (49 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (49 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/float.StackSwap" end time: Dec 04 02:13 MSK
+"StackTest/float.StackSwap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/66 Testing: StackTest/double.IsEmpty
+45/66 Test: StackTest/double.IsEmpty
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/4.IsEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/double.IsEmpty" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/4.IsEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/4, where TypeParam = double
+[ RUN      ] StackTest/4.IsEmpty
+[       OK ] StackTest/4.IsEmpty (0 ms)
+[----------] 1 test from StackTest/4 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/double.IsEmpty" end time: Dec 04 02:13 MSK
+"StackTest/double.IsEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/66 Testing: StackTest/double.StackPush
+46/66 Test: StackTest/double.StackPush
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/4.StackPush" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/double.StackPush" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/4.StackPush
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/4, where TypeParam = double
+[ RUN      ] StackTest/4.StackPush
+[       OK ] StackTest/4.StackPush (119 ms)
+[----------] 1 test from StackTest/4 (119 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (119 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/double.StackPush" end time: Dec 04 02:13 MSK
+"StackTest/double.StackPush" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/66 Testing: StackTest/double.StackPop
+47/66 Test: StackTest/double.StackPop
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/4.StackPop" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/double.StackPop" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/4.StackPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/4, where TypeParam = double
+[ RUN      ] StackTest/4.StackPop
+[       OK ] StackTest/4.StackPop (74 ms)
+[----------] 1 test from StackTest/4 (74 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (74 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/double.StackPop" end time: Dec 04 02:13 MSK
+"StackTest/double.StackPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/66 Testing: StackTest/double.OperatorEqual
+48/66 Test: StackTest/double.OperatorEqual
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/4.OperatorEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/double.OperatorEqual" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/4.OperatorEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/4, where TypeParam = double
+[ RUN      ] StackTest/4.OperatorEqual
+[       OK ] StackTest/4.OperatorEqual (41 ms)
+[----------] 1 test from StackTest/4 (41 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (41 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/double.OperatorEqual" end time: Dec 04 02:13 MSK
+"StackTest/double.OperatorEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/66 Testing: StackTest/double.OperatorNotEqual
+49/66 Test: StackTest/double.OperatorNotEqual
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/4.OperatorNotEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/double.OperatorNotEqual" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/4.OperatorNotEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/4, where TypeParam = double
+[ RUN      ] StackTest/4.OperatorNotEqual
+[       OK ] StackTest/4.OperatorNotEqual (35 ms)
+[----------] 1 test from StackTest/4 (35 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (35 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/double.OperatorNotEqual" end time: Dec 04 02:13 MSK
+"StackTest/double.OperatorNotEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/66 Testing: StackTest/double.OperatorAssign
+50/66 Test: StackTest/double.OperatorAssign
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/4.OperatorAssign" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/double.OperatorAssign" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/4.OperatorAssign
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/4, where TypeParam = double
+[ RUN      ] StackTest/4.OperatorAssign
+[       OK ] StackTest/4.OperatorAssign (58 ms)
+[----------] 1 test from StackTest/4 (58 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (58 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/double.OperatorAssign" end time: Dec 04 02:13 MSK
+"StackTest/double.OperatorAssign" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/66 Testing: StackTest/double.DefaultCtor
+51/66 Test: StackTest/double.DefaultCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/4.DefaultCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/double.DefaultCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/4.DefaultCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/4, where TypeParam = double
+[ RUN      ] StackTest/4.DefaultCtor
+[       OK ] StackTest/4.DefaultCtor (0 ms)
+[----------] 1 test from StackTest/4 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/double.DefaultCtor" end time: Dec 04 02:13 MSK
+"StackTest/double.DefaultCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/66 Testing: StackTest/double.Initialize
+52/66 Test: StackTest/double.Initialize
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/4.Initialize" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/double.Initialize" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/4.Initialize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/4, where TypeParam = double
+[ RUN      ] StackTest/4.Initialize
+[       OK ] StackTest/4.Initialize (57 ms)
+[----------] 1 test from StackTest/4 (57 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (57 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/double.Initialize" end time: Dec 04 02:13 MSK
+"StackTest/double.Initialize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/66 Testing: StackTest/double.CopyCtor
+53/66 Test: StackTest/double.CopyCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/4.CopyCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/double.CopyCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/4.CopyCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/4, where TypeParam = double
+[ RUN      ] StackTest/4.CopyCtor
+[       OK ] StackTest/4.CopyCtor (30 ms)
+[----------] 1 test from StackTest/4 (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (31 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/double.CopyCtor" end time: Dec 04 02:13 MSK
+"StackTest/double.CopyCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/66 Testing: StackTest/double.MoveCtor
+54/66 Test: StackTest/double.MoveCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/4.MoveCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/double.MoveCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/4.MoveCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/4, where TypeParam = double
+[ RUN      ] StackTest/4.MoveCtor
+[       OK ] StackTest/4.MoveCtor (30 ms)
+[----------] 1 test from StackTest/4 (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (30 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/double.MoveCtor" end time: Dec 04 02:13 MSK
+"StackTest/double.MoveCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/66 Testing: StackTest/double.StackSwap
+55/66 Test: StackTest/double.StackSwap
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/4.StackSwap" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/double.StackSwap" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/4.StackSwap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/4, where TypeParam = double
+[ RUN      ] StackTest/4.StackSwap
+[       OK ] StackTest/4.StackSwap (54 ms)
+[----------] 1 test from StackTest/4 (55 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (55 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/double.StackSwap" end time: Dec 04 02:13 MSK
+"StackTest/double.StackSwap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/66 Testing: StackTest/bool.IsEmpty
+56/66 Test: StackTest/bool.IsEmpty
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/5.IsEmpty" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/bool.IsEmpty" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/5.IsEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/5, where TypeParam = bool
+[ RUN      ] StackTest/5.IsEmpty
+[       OK ] StackTest/5.IsEmpty (0 ms)
+[----------] 1 test from StackTest/5 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/bool.IsEmpty" end time: Dec 04 02:13 MSK
+"StackTest/bool.IsEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/66 Testing: StackTest/bool.StackPush
+57/66 Test: StackTest/bool.StackPush
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/5.StackPush" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/bool.StackPush" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/5.StackPush
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/5, where TypeParam = bool
+[ RUN      ] StackTest/5.StackPush
+[       OK ] StackTest/5.StackPush (104 ms)
+[----------] 1 test from StackTest/5 (104 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (104 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/bool.StackPush" end time: Dec 04 02:13 MSK
+"StackTest/bool.StackPush" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/66 Testing: StackTest/bool.StackPop
+58/66 Test: StackTest/bool.StackPop
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/5.StackPop" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/bool.StackPop" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/5.StackPop
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/5, where TypeParam = bool
+[ RUN      ] StackTest/5.StackPop
+[       OK ] StackTest/5.StackPop (71 ms)
+[----------] 1 test from StackTest/5 (71 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (71 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/bool.StackPop" end time: Dec 04 02:13 MSK
+"StackTest/bool.StackPop" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/66 Testing: StackTest/bool.OperatorEqual
+59/66 Test: StackTest/bool.OperatorEqual
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/5.OperatorEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/bool.OperatorEqual" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/5.OperatorEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/5, where TypeParam = bool
+[ RUN      ] StackTest/5.OperatorEqual
+[       OK ] StackTest/5.OperatorEqual (19 ms)
+[----------] 1 test from StackTest/5 (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (19 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/bool.OperatorEqual" end time: Dec 04 02:13 MSK
+"StackTest/bool.OperatorEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/66 Testing: StackTest/bool.OperatorNotEqual
+60/66 Test: StackTest/bool.OperatorNotEqual
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/5.OperatorNotEqual" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/bool.OperatorNotEqual" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/5.OperatorNotEqual
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/5, where TypeParam = bool
+[ RUN      ] StackTest/5.OperatorNotEqual
+[       OK ] StackTest/5.OperatorNotEqual (19 ms)
+[----------] 1 test from StackTest/5 (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (19 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/bool.OperatorNotEqual" end time: Dec 04 02:13 MSK
+"StackTest/bool.OperatorNotEqual" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/66 Testing: StackTest/bool.OperatorAssign
+61/66 Test: StackTest/bool.OperatorAssign
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/5.OperatorAssign" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/bool.OperatorAssign" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/5.OperatorAssign
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/5, where TypeParam = bool
+[ RUN      ] StackTest/5.OperatorAssign
+[       OK ] StackTest/5.OperatorAssign (26 ms)
+[----------] 1 test from StackTest/5 (26 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (27 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/bool.OperatorAssign" end time: Dec 04 02:13 MSK
+"StackTest/bool.OperatorAssign" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/66 Testing: StackTest/bool.DefaultCtor
+62/66 Test: StackTest/bool.DefaultCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/5.DefaultCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/bool.DefaultCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/5.DefaultCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/5, where TypeParam = bool
+[ RUN      ] StackTest/5.DefaultCtor
+[       OK ] StackTest/5.DefaultCtor (0 ms)
+[----------] 1 test from StackTest/5 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/bool.DefaultCtor" end time: Dec 04 02:13 MSK
+"StackTest/bool.DefaultCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/66 Testing: StackTest/bool.Initialize
+63/66 Test: StackTest/bool.Initialize
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/5.Initialize" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/bool.Initialize" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/5.Initialize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/5, where TypeParam = bool
+[ RUN      ] StackTest/5.Initialize
+[       OK ] StackTest/5.Initialize (53 ms)
+[----------] 1 test from StackTest/5 (53 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (53 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/bool.Initialize" end time: Dec 04 02:13 MSK
+"StackTest/bool.Initialize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/66 Testing: StackTest/bool.CopyCtor
+64/66 Test: StackTest/bool.CopyCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/5.CopyCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/bool.CopyCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/5.CopyCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/5, where TypeParam = bool
+[ RUN      ] StackTest/5.CopyCtor
+[       OK ] StackTest/5.CopyCtor (11 ms)
+[----------] 1 test from StackTest/5 (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (11 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/bool.CopyCtor" end time: Dec 04 02:13 MSK
+"StackTest/bool.CopyCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/66 Testing: StackTest/bool.MoveCtor
+65/66 Test: StackTest/bool.MoveCtor
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/5.MoveCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/bool.MoveCtor" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/5.MoveCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/5, where TypeParam = bool
+[ RUN      ] StackTest/5.MoveCtor
+[       OK ] StackTest/5.MoveCtor (12 ms)
+[----------] 1 test from StackTest/5 (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (12 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/bool.MoveCtor" end time: Dec 04 02:13 MSK
+"StackTest/bool.MoveCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/66 Testing: StackTest/bool.StackSwap
+66/66 Test: StackTest/bool.StackSwap
+Command: "/home/arseniy/Huawei/Projects/Stack/tests/build/stack_test" "--gtest_filter=StackTest/5.StackSwap" "--gtest_also_run_disabled_tests"
+Directory: /home/arseniy/Huawei/Projects/Stack/tests/build
+"StackTest/bool.StackSwap" start time: Dec 04 02:13 MSK
+Output:
+----------------------------------------------------------
+Running main() from /home/arseniy/Huawei/Projects/Stack/tests/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTest/5.StackSwap
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest/5, where TypeParam = bool
+[ RUN      ] StackTest/5.StackSwap
+[       OK ] StackTest/5.StackSwap (23 ms)
+[----------] 1 test from StackTest/5 (23 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (23 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest/bool.StackSwap" end time: Dec 04 02:13 MSK
+"StackTest/bool.StackSwap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 04 02:13 MSK
