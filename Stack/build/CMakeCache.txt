@@ -20,17 +20,11 @@ ADD_BENCHMARK:BOOL=ON
 //Activate clang-format
 ADD_FORMAT:BOOL=ON
 
-//No help, variable specified on the command line.
-ADD_SANITIZERS:UNINITIALIZED=true
-
 //Activate google-testing
 ADD_TESTING:BOOL=ON
 
 //Activate clang-tidy
 ADD_TIDY:BOOL=ON
-
-//Activate benchmarks
-BENCHMARK:BOOL=ON
 
 //Builds the googlemock subproject
 BUILD_GMOCK:BOOL=ON
@@ -319,9 +313,6 @@ FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 //Enables UPDATE_DISCONNECTED behavior just for population of googletest
 FETCHCONTENT_UPDATES_DISCONNECTED_GOOGLETEST:BOOL=OFF
 
-//Activate clang-format
-FORMAT:BOOL=ON
-
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
@@ -337,12 +328,6 @@ Stack_BINARY_DIR:STATIC=/home/arseniy/Huawei/Projects/Stack/build
 
 //Value Computed by CMake
 Stack_SOURCE_DIR:STATIC=/home/arseniy/Huawei/Projects/Stack
-
-//Activate google-testing
-TESTING:BOOL=ON
-
-//Activate clang-tidy
-TIDY:BOOL=ON
 
 //Path to a program.
 _Python_EXECUTABLE:FILEPATH=/usr/bin/python3.8
