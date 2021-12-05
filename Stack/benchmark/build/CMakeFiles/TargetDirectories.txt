@@ -1,4 +1,0 @@
-/home/arseniy/Huawei/Projects/Stack/benchmark/build/CMakeFiles/rebuild_cache.dir
-/home/arseniy/Huawei/Projects/Stack/benchmark/build/CMakeFiles/edit_cache.dir
-/home/arseniy/Huawei/Projects/Stack/benchmark/build/CMakeFiles/run_mybenchmark.dir
-/home/arseniy/Huawei/Projects/Stack/benchmark/build/CMakeFiles/mybenchmark.dir

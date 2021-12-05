@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/arseniy/Huawei/Projects/Stack/include/stack-impl.hpp
+../include/stack-impl.hpp
 stack.hpp
-/home/arseniy/Huawei/Projects/Stack/include/stack.hpp
+../include/stack.hpp
 utility
 -
 
-/home/arseniy/Huawei/Projects/Stack/include/stack.hpp
+../include/stack.hpp
 cstdlib
 -
 
 /home/arseniy/Huawei/Projects/Stack/tests/test.cpp
 gtest/gtest.h
 -
-../include/stack-impl.hpp
-/home/arseniy/Huawei/Projects/Stack/include/stack-impl.hpp
-../include/stack.hpp
-/home/arseniy/Huawei/Projects/Stack/include/stack.hpp
+stack-impl.hpp
+/home/arseniy/Huawei/Projects/Stack/tests/stack-impl.hpp
+stack.hpp
+/home/arseniy/Huawei/Projects/Stack/tests/stack.hpp
 
 _deps/googletest-src/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

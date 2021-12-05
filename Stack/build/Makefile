@@ -170,6 +170,32 @@ format/fast:
 .PHONY : format/fast
 
 #=============================================================================
+# Target rules for targets named run_mybenchmark
+
+# Build rule for target.
+run_mybenchmark: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_mybenchmark
+.PHONY : run_mybenchmark
+
+# fast build rule for target.
+run_mybenchmark/fast:
+	$(MAKE) -f benchmark/CMakeFiles/run_mybenchmark.dir/build.make benchmark/CMakeFiles/run_mybenchmark.dir/build
+.PHONY : run_mybenchmark/fast
+
+#=============================================================================
+# Target rules for targets named mybenchmark
+
+# Build rule for target.
+mybenchmark: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mybenchmark
+.PHONY : mybenchmark
+
+# fast build rule for target.
+mybenchmark/fast:
+	$(MAKE) -f benchmark/CMakeFiles/mybenchmark.dir/build.make benchmark/CMakeFiles/mybenchmark.dir/build
+.PHONY : mybenchmark/fast
+
+#=============================================================================
 # Target rules for targets named run_stack_test
 
 # Build rule for target.
@@ -247,32 +273,6 @@ gtest/fast:
 	$(MAKE) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-#=============================================================================
-# Target rules for targets named run_mybenchmark
-
-# Build rule for target.
-run_mybenchmark: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_mybenchmark
-.PHONY : run_mybenchmark
-
-# fast build rule for target.
-run_mybenchmark/fast:
-	$(MAKE) -f benchmark/CMakeFiles/run_mybenchmark.dir/build.make benchmark/CMakeFiles/run_mybenchmark.dir/build
-.PHONY : run_mybenchmark/fast
-
-#=============================================================================
-# Target rules for targets named mybenchmark
-
-# Build rule for target.
-mybenchmark: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mybenchmark
-.PHONY : mybenchmark
-
-# fast build rule for target.
-mybenchmark/fast:
-	$(MAKE) -f benchmark/CMakeFiles/mybenchmark.dir/build.make benchmark/CMakeFiles/mybenchmark.dir/build
-.PHONY : mybenchmark/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,14 +286,14 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... format"
+	@echo "... run_mybenchmark"
+	@echo "... mybenchmark"
 	@echo "... run_stack_test"
 	@echo "... stack_test"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... run_mybenchmark"
-	@echo "... mybenchmark"
 .PHONY : help
 
 

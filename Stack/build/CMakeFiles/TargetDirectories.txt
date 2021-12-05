@@ -5,6 +5,14 @@
 /home/arseniy/Huawei/Projects/Stack/build/CMakeFiles/rebuild_cache.dir
 /home/arseniy/Huawei/Projects/Stack/build/CMakeFiles/edit_cache.dir
 /home/arseniy/Huawei/Projects/Stack/build/CMakeFiles/format.dir
+/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/install/strip.dir
+/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/install/local.dir
+/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/install.dir
+/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/list_install_components.dir
+/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/rebuild_cache.dir
+/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/edit_cache.dir
+/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/run_mybenchmark.dir
+/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/mybenchmark.dir
 /home/arseniy/Huawei/Projects/Stack/build/tests/CMakeFiles/install/strip.dir
 /home/arseniy/Huawei/Projects/Stack/build/tests/CMakeFiles/install/local.dir
 /home/arseniy/Huawei/Projects/Stack/build/tests/CMakeFiles/install.dir
@@ -35,11 +43,3 @@
 /home/arseniy/Huawei/Projects/Stack/build/_deps/googletest-build/googletest/CMakeFiles/edit_cache.dir
 /home/arseniy/Huawei/Projects/Stack/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir
 /home/arseniy/Huawei/Projects/Stack/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir
-/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/install/strip.dir
-/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/install/local.dir
-/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/install.dir
-/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/list_install_components.dir
-/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/rebuild_cache.dir
-/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/edit_cache.dir
-/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/run_mybenchmark.dir
-/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/mybenchmark.dir

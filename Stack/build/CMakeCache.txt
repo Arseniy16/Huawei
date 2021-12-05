@@ -14,8 +14,23 @@
 # EXTERNAL cache entries
 ########################
 
+//Activate benchmarks
+ADD_BENCHMARK:BOOL=ON
+
+//Activate clang-format
+ADD_FORMAT:BOOL=ON
+
 //No help, variable specified on the command line.
 ADD_SANITIZERS:UNINITIALIZED=true
+
+//Activate google-testing
+ADD_TESTING:BOOL=ON
+
+//Activate clang-tidy
+ADD_TIDY:BOOL=ON
+
+//Activate benchmarks
+BENCHMARK:BOOL=ON
 
 //Builds the googlemock subproject
 BUILD_GMOCK:BOOL=ON
@@ -322,6 +337,9 @@ Stack_BINARY_DIR:STATIC=/home/arseniy/Huawei/Projects/Stack/build
 
 //Value Computed by CMake
 Stack_SOURCE_DIR:STATIC=/home/arseniy/Huawei/Projects/Stack
+
+//Activate google-testing
+TESTING:BOOL=ON
 
 //Activate clang-tidy
 TIDY:BOOL=ON

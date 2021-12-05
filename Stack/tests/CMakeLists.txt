@@ -23,7 +23,7 @@ enable_testing()
 
 add_executable(${EXEC_FILE} ${PROJECT_TEST})
 
-target_link_libraries(${EXEC_FILE} gtest_main)
+target_link_libraries(${EXEC_FILE} stack gtest_main)
 
 include(GoogleTest)
 gtest_discover_tests(${EXEC_FILE})
@@ -34,7 +34,7 @@ add_custom_target(
     COMMAND ./${EXEC_FILE}
 )
 
-add_dependencies(run_${EXEC_FILE} ${EXEC_FILE})
+add_dependencies(run_${EXEC_FILE} stack)
 
 if(ADD_SANITIZERS)
     message("Build with sanitizers")

@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+../include/stack-impl.hpp
+stack.hpp
+../include/stack.hpp
+utility
+-
+
+../include/stack.hpp
+cstdlib
+-
+
 /home/arseniy/Huawei/Projects/Stack/benchmark/benchmark.cpp
 benchmark/benchmark.h
 -

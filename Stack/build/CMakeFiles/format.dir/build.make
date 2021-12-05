@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/arseniy/Huawei/Projects/Stack/build
 include CMakeFiles/format.dir/progress.make
 
 CMakeFiles/format:
-	clang-format -style=file -i /home/arseniy/Huawei/Projects/Stack/benchmark/benchmark.cpp /home/arseniy/Huawei/Projects/Stack/benchmark/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp /home/arseniy/Huawei/Projects/Stack/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp /home/arseniy/Huawei/Projects/Stack/include/stack-impl.hpp /home/arseniy/Huawei/Projects/Stack/include/stack.hpp /home/arseniy/Huawei/Projects/Stack/tests/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp /home/arseniy/Huawei/Projects/Stack/tests/test.cpp
+	clang-format -style=file -i /home/arseniy/Huawei/Projects/Stack/benchmark/benchmark.cpp /home/arseniy/Huawei/Projects/Stack/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp /home/arseniy/Huawei/Projects/Stack/include/stack-impl.hpp /home/arseniy/Huawei/Projects/Stack/include/stack.hpp /home/arseniy/Huawei/Projects/Stack/tests/test.cpp
 
 format: CMakeFiles/format
 format: CMakeFiles/format.dir/build.make

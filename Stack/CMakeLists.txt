@@ -10,16 +10,18 @@ set(CMAKE_CXX_EXTINSION OFF)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pedantic -Wextra -Wall  -Wshadow ") # -Werror
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-exceptions")
 
-option(TIDY "Activate clang-tidy" ON)
-option(FORMAT "Activate clang-format" ON)
+option(ADD_TIDY "Activate clang-tidy" ON)
+option(ADD_FORMAT "Activate clang-format" ON)
+option(ADD_BENCHMARK "Activate benchmarks" ON)
+option(ADD_TESTING "Activate google-testing" ON)
 
-set(APP_INCLUDES include)
+set(INCLUDES include)
 
 add_library(stack INTERFACE)
 
-target_include_directories(stack INTERFACE ${APP_INCLUDES})
+target_include_directories(stack INTERFACE ${INCLUDES})
 
-if(TIDY)
+if(ADD_TIDY)
     set(CLANG_TIDY_FLAGS
         clang-tidy;
         --checks=*;
@@ -30,7 +32,7 @@ if(TIDY)
     message(STATUS "clang-tidy ON")
 endif()
 
-if(FORMAT)
+if(ADD_FORMAT)
     file(GLOB_RECURSE ALL_SOURCE_FILES *.cpp *.hpp)
     add_custom_target(
         format
@@ -42,5 +44,12 @@ if(FORMAT)
     message(STATUS "clang-format ON")
 endif()
 
-add_subdirectory(tests)
-add_subdirectory(benchmark)
+if(ADD_BENCHMARK)
+    message(STATUS "benchmark ON")
+    add_subdirectory(benchmark)
+endif()
+
+if(ADD_TESTING)
+    message(STATUS "testing ON")
+    add_subdirectory(tests)
+endif()

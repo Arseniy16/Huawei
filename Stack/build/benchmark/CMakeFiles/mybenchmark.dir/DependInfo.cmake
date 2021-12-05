@@ -5,12 +5,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/arseniy/Huawei/Projects/Stack/benchmark/benchmark.cpp" "/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/mybenchmark.dir/benchmark.cpp.o"
-  "/home/arseniy/Huawei/Projects/Stack/benchmark/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" "/home/arseniy/Huawei/Projects/Stack/build/benchmark/CMakeFiles/mybenchmark.dir/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
   )
 
 # Targets to which this target links.

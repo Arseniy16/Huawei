@@ -6,5 +6,5 @@ CXX_FLAGS =  -pedantic -Wextra -Wall  -Wshadow  -fno-exceptions   -fsanitize=add
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/arseniy/Huawei/Projects/Stack/build/_deps/googletest-src/googletest/include -isystem /home/arseniy/Huawei/Projects/Stack/build/_deps/googletest-src/googletest 
+CXX_INCLUDES = -I/home/arseniy/Huawei/Projects/Stack/include -isystem /home/arseniy/Huawei/Projects/Stack/build/_deps/googletest-src/googletest/include -isystem /home/arseniy/Huawei/Projects/Stack/build/_deps/googletest-src/googletest 
 

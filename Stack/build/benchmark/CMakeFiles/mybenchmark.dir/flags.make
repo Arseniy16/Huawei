@@ -6,5 +6,5 @@ CXX_FLAGS =  -pedantic -Wextra -Wall  -Wshadow  -fno-exceptions   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/arseniy/Huawei/Projects/Stack/include 
 

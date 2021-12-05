@@ -213,33 +213,6 @@ benchmark.cpp.s:
 	cd /home/arseniy/Huawei/Projects/Stack/build && $(MAKE) -f benchmark/CMakeFiles/mybenchmark.dir/build.make benchmark/CMakeFiles/mybenchmark.dir/benchmark.cpp.s
 .PHONY : benchmark.cpp.s
 
-build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.o: build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-
-.PHONY : build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.o
-
-# target to build an object file
-build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o:
-	cd /home/arseniy/Huawei/Projects/Stack/build && $(MAKE) -f benchmark/CMakeFiles/mybenchmark.dir/build.make benchmark/CMakeFiles/mybenchmark.dir/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-.PHONY : build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
-
-build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.i: build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-
-.PHONY : build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.i
-
-# target to preprocess a source file
-build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
-	cd /home/arseniy/Huawei/Projects/Stack/build && $(MAKE) -f benchmark/CMakeFiles/mybenchmark.dir/build.make benchmark/CMakeFiles/mybenchmark.dir/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-.PHONY : build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-
-build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.s: build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-
-.PHONY : build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.s
-
-# target to generate assembly for a file
-build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
-	cd /home/arseniy/Huawei/Projects/Stack/build && $(MAKE) -f benchmark/CMakeFiles/mybenchmark.dir/build.make benchmark/CMakeFiles/mybenchmark.dir/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-.PHONY : build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -257,9 +230,6 @@ help:
 	@echo "... benchmark.o"
 	@echo "... benchmark.i"
 	@echo "... benchmark.s"
-	@echo "... build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.o"
-	@echo "... build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.i"
-	@echo "... build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.s"
 .PHONY : help
 
 

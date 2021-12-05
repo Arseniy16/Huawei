@@ -10,7 +10,7 @@ template <typename T>
 class Stack
 {
 public:
-    const size_t CAPACITY = 10;
+    const size_t CAPACITY = 16;
 
     Stack();
     explicit Stack(size_t size);
@@ -36,11 +36,11 @@ public:
 
     void swap(Stack &other);
 
-    void expand();
-
     void change_coef_expand(double coef_expand);
 
 private:
+    void expand();
+
     double coef_expand_ = 2;
 
     T *data_;
@@ -77,9 +77,9 @@ public:
 
     void swap(Stack &other);
 
-    void expand();
-
 private:
+    void expand();
+    
     const double coef_expand_ = 2;
     
     unsigned char *data_;
