@@ -1,0 +1,5 @@
+if(EXISTS "/home/arseniy/Huawei/Projects/Queue/build/test/queue_stack[1]_tests.cmake")
+  include("/home/arseniy/Huawei/Projects/Queue/build/test/queue_stack[1]_tests.cmake")
+else()
+  add_test(queue_stack_NOT_BUILT queue_stack_NOT_BUILT)
+endif()

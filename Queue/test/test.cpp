@@ -1,6 +1,11 @@
-#include <gtest/gtest.h>
 
-#include "queue-impl.hpp"
+#include "../stack_queue/queue/queue-impl.hpp"
+// #include "../list_queue/queue-impl.hpp"
+#include <algorithm>
+// #include <utility>
+
+#include <gtest/gtest.h>
+ 
 
 template<typename T>
 class QueueTest : public testing::Test
@@ -10,7 +15,7 @@ public:
     const size_t TEST_SIZE = 1000000;
 
     T val1 = static_cast<T>(9);
-    T val2 = static_cast<T>(0);
+    T val2 = static_cast<T>(1);
     queue::Queue<T> queue_one;    
     queue::Queue<T> queue_two;
 };
@@ -27,12 +32,12 @@ TYPED_TEST(QueueTest, IsEmpty)
 
 TYPED_TEST(QueueTest, QueuePush)
 {
-    for (size_t i = 1; i < this->TEST_SIZE; ++i)
+    for (size_t i = 0; i < this->TEST_SIZE; ++i)
     {
         this->queue_one.push(this->val1);
-        this->queue_one.push(this->val1 + i);
+        this->queue_one.push(this->val2);
         this->queue_two.push(this->val1);
-        this->queue_two.push(this->val1 + i);
+        this->queue_two.push(this->val2);
 
         EXPECT_TRUE(this->queue_one.front() != this->queue_one.back());
         EXPECT_TRUE(this->queue_two.front() != this->queue_two.back());
@@ -121,7 +126,8 @@ TYPED_TEST(QueueTest, OperatorAssign)
 {
     for (size_t i = 0; i < this->TEST_SIZE; i++)
     {
-        this->queue_one.push(i);
+        this->queue_one.push(this->val1);
+        this->queue_one.push(this->val2);        
     }
     this->queue_two = this->queue_one;
     EXPECT_TRUE(this->queue_one == this->queue_two);
@@ -159,9 +165,10 @@ TYPED_TEST(QueueTest, Initialize)
 TYPED_TEST(QueueTest, CopyCtor)
 {
     using T = typename TestFixture::MyType;
-    for (size_t i = 0; i < this->TEST_SIZE; i++)
+    for (size_t i = 0; i < this->TEST_SIZE; ++i)
     {
-        this->queue_one.push(i);
+        this->queue_one.push(this->val1);
+        this->queue_one.push(this->val2);
     }
     queue::Queue<T> new_queue(this->queue_one);
     EXPECT_TRUE(this->queue_one == new_queue);
