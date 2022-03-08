@@ -1,0 +1,114 @@
+
+test.o:     формат файла elf64-x86-64
+
+
+Дизассемблирование раздела .text:
+
+0000000000000000 <_ZN3FooC1Ev>:
+   0:	f3 0f 1e fa          	endbr64 
+   4:	55                   	push   %rbp
+   5:	48 89 e5             	mov    %rsp,%rbp
+   8:	53                   	push   %rbx
+   9:	48 83 ec 18          	sub    $0x18,%rsp
+   d:	48 89 7d e8          	mov    %rdi,-0x18(%rbp)
+  11:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  15:	48 89 c7             	mov    %rax,%rdi
+  18:	e8 00 00 00 00       	callq  1d <_ZN3FooC1Ev+0x1d>
+  1d:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  21:	48 8d 35 00 00 00 00 	lea    0x0(%rip),%rsi        # 28 <_ZN3FooC1Ev+0x28>
+  28:	48 89 c7             	mov    %rax,%rdi
+  2b:	e8 00 00 00 00       	callq  30 <_ZN3FooC1Ev+0x30>
+  30:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  34:	c7 40 20 00 00 00 00 	movl   $0x0,0x20(%rax)
+  3b:	eb 1e                	jmp    5b <_ZN3FooC1Ev+0x5b>
+  3d:	f3 0f 1e fa          	endbr64 
+  41:	48 89 c3             	mov    %rax,%rbx
+  44:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  48:	48 89 c7             	mov    %rax,%rdi
+  4b:	e8 00 00 00 00       	callq  50 <_ZN3FooC1Ev+0x50>
+  50:	48 89 d8             	mov    %rbx,%rax
+  53:	48 89 c7             	mov    %rax,%rdi
+  56:	e8 00 00 00 00       	callq  5b <_ZN3FooC1Ev+0x5b>
+  5b:	48 83 c4 18          	add    $0x18,%rsp
+  5f:	5b                   	pop    %rbx
+  60:	5d                   	pop    %rbp
+  61:	c3                   	retq   
+
+0000000000000062 <_ZN3Foo7SetNameENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE>:
+  62:	f3 0f 1e fa          	endbr64 
+  66:	55                   	push   %rbp
+  67:	48 89 e5             	mov    %rsp,%rbp
+  6a:	48 83 ec 10          	sub    $0x10,%rsp
+  6e:	48 89 7d f8          	mov    %rdi,-0x8(%rbp)
+  72:	48 89 75 f0          	mov    %rsi,-0x10(%rbp)
+  76:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+  7a:	48 8b 55 f0          	mov    -0x10(%rbp),%rdx
+  7e:	48 89 d6             	mov    %rdx,%rsi
+  81:	48 89 c7             	mov    %rax,%rdi
+  84:	e8 00 00 00 00       	callq  89 <_ZN3Foo7SetNameENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE+0x27>
+  89:	90                   	nop
+  8a:	c9                   	leaveq 
+  8b:	c3                   	retq   
+
+000000000000008c <_ZN3Foo7GetNameB5cxx11Ev>:
+  8c:	f3 0f 1e fa          	endbr64 
+  90:	55                   	push   %rbp
+  91:	48 89 e5             	mov    %rsp,%rbp
+  94:	48 83 ec 10          	sub    $0x10,%rsp
+  98:	48 89 7d f8          	mov    %rdi,-0x8(%rbp)
+  9c:	48 89 75 f0          	mov    %rsi,-0x10(%rbp)
+  a0:	48 8b 55 f0          	mov    -0x10(%rbp),%rdx
+  a4:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+  a8:	48 89 d6             	mov    %rdx,%rsi
+  ab:	48 89 c7             	mov    %rax,%rdi
+  ae:	e8 00 00 00 00       	callq  b3 <_ZN3Foo7GetNameB5cxx11Ev+0x27>
+  b3:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+  b7:	c9                   	leaveq 
+  b8:	c3                   	retq   
+  b9:	90                   	nop
+
+00000000000000ba <_ZN3Foo10IncreaseIdEv>:
+  ba:	f3 0f 1e fa          	endbr64 
+  be:	55                   	push   %rbp
+  bf:	48 89 e5             	mov    %rsp,%rbp
+  c2:	48 89 7d f8          	mov    %rdi,-0x8(%rbp)
+  c6:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+  ca:	8b 40 20             	mov    0x20(%rax),%eax
+  cd:	8d 50 01             	lea    0x1(%rax),%edx
+  d0:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+  d4:	89 50 20             	mov    %edx,0x20(%rax)
+  d7:	90                   	nop
+  d8:	5d                   	pop    %rbp
+  d9:	c3                   	retq   
+
+00000000000000da <_Z41__static_initialization_and_destruction_0ii>:
+  da:	f3 0f 1e fa          	endbr64 
+  de:	55                   	push   %rbp
+  df:	48 89 e5             	mov    %rsp,%rbp
+  e2:	48 83 ec 10          	sub    $0x10,%rsp
+  e6:	89 7d fc             	mov    %edi,-0x4(%rbp)
+  e9:	89 75 f8             	mov    %esi,-0x8(%rbp)
+  ec:	83 7d fc 01          	cmpl   $0x1,-0x4(%rbp)
+  f0:	75 32                	jne    124 <_Z41__static_initialization_and_destruction_0ii+0x4a>
+  f2:	81 7d f8 ff ff 00 00 	cmpl   $0xffff,-0x8(%rbp)
+  f9:	75 29                	jne    124 <_Z41__static_initialization_and_destruction_0ii+0x4a>
+  fb:	48 8d 3d 00 00 00 00 	lea    0x0(%rip),%rdi        # 102 <_Z41__static_initialization_and_destruction_0ii+0x28>
+ 102:	e8 00 00 00 00       	callq  107 <_Z41__static_initialization_and_destruction_0ii+0x2d>
+ 107:	48 8d 15 00 00 00 00 	lea    0x0(%rip),%rdx        # 10e <_Z41__static_initialization_and_destruction_0ii+0x34>
+ 10e:	48 8d 35 00 00 00 00 	lea    0x0(%rip),%rsi        # 115 <_Z41__static_initialization_and_destruction_0ii+0x3b>
+ 115:	48 8b 05 00 00 00 00 	mov    0x0(%rip),%rax        # 11c <_Z41__static_initialization_and_destruction_0ii+0x42>
+ 11c:	48 89 c7             	mov    %rax,%rdi
+ 11f:	e8 00 00 00 00       	callq  124 <_Z41__static_initialization_and_destruction_0ii+0x4a>
+ 124:	90                   	nop
+ 125:	c9                   	leaveq 
+ 126:	c3                   	retq   
+
+0000000000000127 <_GLOBAL__sub_I__ZN3FooC2Ev>:
+ 127:	f3 0f 1e fa          	endbr64 
+ 12b:	55                  	push   %rbp
+ 12c:	48 89 e5             	mov    %rsp,%rbp
+ 12f:	be ff ff 00 00       	mov    $0xffff,%esi
+ 134:	bf 01 00 00 00       	mov    $0x1,%edi
+ 139:	e8 9c ff ff ff       	callq  da <_Z41__static_initialization_and_destruction_0ii>
+ 13e:	5d                   	pop    %rbp
+ 13f:	c3                   	retq   
