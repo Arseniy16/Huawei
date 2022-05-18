@@ -9,8 +9,6 @@
 /home/arseniy/Huawei/Projects/Queue/stack_queue/queue/queue-impl.hpp
 queue.hpp
 /home/arseniy/Huawei/Projects/Queue/stack_queue/queue/queue.hpp
-algorithm
--
 
 /home/arseniy/Huawei/Projects/Queue/stack_queue/queue/queue.hpp
 ../stack/stack-impl.hpp
@@ -19,22 +17,22 @@ algorithm
 /home/arseniy/Huawei/Projects/Queue/stack_queue/stack/stack-impl.hpp
 stack.hpp
 /home/arseniy/Huawei/Projects/Queue/stack_queue/stack/stack.hpp
+utility
+-
 algorithm
 -
 
 /home/arseniy/Huawei/Projects/Queue/stack_queue/stack/stack.hpp
 cstdlib
 -
-cstddef
--
 
 /home/arseniy/Huawei/Projects/Queue/test/test.cpp
-../stack_queue/queue/queue-impl.hpp
-/home/arseniy/Huawei/Projects/Queue/stack_queue/queue/queue-impl.hpp
-algorithm
--
 gtest/gtest.h
 -
+../stack_queue/queue/queue-impl.hpp
+/home/arseniy/Huawei/Projects/Queue/stack_queue/queue/queue-impl.hpp
+../stack_queue/queue/queue.hpp
+/home/arseniy/Huawei/Projects/Queue/stack_queue/queue/queue.hpp
 
 _deps/googletest-src/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

@@ -5,7 +5,7 @@
 
 #include <utility>
 
-namespace queue_list 
+namespace queue 
 {
 
 template<typename T>
@@ -37,7 +37,7 @@ Queue<T>::Queue(const Queue &other) : Queue()
 
     for (Node *ptr = other.head_->next; ptr != nullptr; ptr = ptr->next) 
     {
-        push(ptr->value);
+        push(ptr->elem);
     }
 }
 
@@ -152,7 +152,7 @@ T &Queue<T>::back()
 }
 
 template<typename T>
-void Queue<T>::swap(Queue &other) //verify 
+void Queue<T>::swap(Queue &other) 
 {
     std::swap(head_, other.head_);
     std::swap(tail_, other.tail_);

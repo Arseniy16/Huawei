@@ -1,4 +1,6 @@
-#include "../queue/queue-impl.hpp"
+#if 0
+#include "../stack_queue/queue/queue-impl.hpp"
+#include "../list_queue/queue-impl.hpp"
 
 #include <gtest/gtest.h>
 
@@ -7,7 +9,7 @@ class QueueTest : public testing::Test
 {
 protected:
     using MyType = T;
-    puza::Queue<T> queue_[2];
+    queue::Queue<T> queue_[2];
     T val1_ = static_cast<T>(0);
     T val2_ = static_cast<T>(1);
     const size_t MAX_ITER_ = 1000000;
@@ -43,7 +45,7 @@ TYPED_TEST(QueueTest, PopFrontBack)
 
 TYPED_TEST(QueueTest, StartSize)
 {
-    EXPECT_TRUE(this->queue_[0].empty());
+    EXPECT_TRUE(this->queue_[0].is_empty());
 }
 
 TYPED_TEST(QueueTest, PushSize)
@@ -122,7 +124,7 @@ TYPED_TEST(QueueTest, CopyConstructor)
         this->queue_[0].push(this->val1_);
         this->queue_[0].push(this->val2_);
     }
-    puza::Queue<T> queue(this->queue_[0]);
+    queue::Queue<T> queue(this->queue_[0]);
     EXPECT_TRUE(this->queue_[0] == queue);
 }
 
@@ -136,8 +138,8 @@ TYPED_TEST(QueueTest, Swap)
         this->queue_[1].push(this->val2_);
         this->queue_[1].push(this->val1_);
     }
-    puza::Queue<T> queue0(this->queue_[0]);
-    puza::Queue<T> queue1(this->queue_[1]);
+    queue::Queue<T> queue0(this->queue_[0]);
+    queue::Queue<T> queue1(this->queue_[1]);
     this->queue_[0].swap(&this->queue_[1]);
     EXPECT_TRUE((this->queue_[1] == queue0) && (this->queue_[0] == queue1));
 }
@@ -147,3 +149,5 @@ int main(int argc, char *argv[])
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }
+
+#endif 

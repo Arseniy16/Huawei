@@ -20,6 +20,9 @@ ADD_BENCHMARK:BOOL=OFF
 //Activate clang-format
 ADD_FORMAT:BOOL=OFF
 
+//Activate sanitizers
+ADD_SANITIZERS:BOOL=OFF
+
 //Activate google-testing
 ADD_TESTING:BOOL=ON
 
@@ -324,7 +327,7 @@ Queue_BINARY_DIR:STATIC=/home/arseniy/Huawei/Projects/Queue/build
 Queue_SOURCE_DIR:STATIC=/home/arseniy/Huawei/Projects/Queue
 
 //Activate list_queue testing
-TEST_LIST_QUEUE:BOOL=ON
+TEST_LIST_QUEUE:BOOL=OFF
 
 //Activate stack_queue testing
 TEST_STACK_QUEUE:BOOL=ON

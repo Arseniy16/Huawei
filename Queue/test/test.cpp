@@ -1,28 +1,34 @@
+#include <gtest/gtest.h>
 
 #include "../stack_queue/queue/queue-impl.hpp"
+#include "../stack_queue/queue/queue.hpp"
 // #include "../list_queue/queue-impl.hpp"
-#include <algorithm>
-// #include <utility>
-
-#include <gtest/gtest.h>
- 
 
 template<typename T>
 class QueueTest : public testing::Test
 {
-public:
+protected:
     using MyType = T;
     const size_t TEST_SIZE = 1000000;
-
-    T val1 = static_cast<T>(9);
+    
+    T val1 = static_cast<T>(0);
     T val2 = static_cast<T>(1);
+
     queue::Queue<T> queue_one;    
     queue::Queue<T> queue_two;
 };
 
-using MyTypes = testing::Types<char, int, long long, float, double, bool>;
+using MyTypes = testing::Types<int, long long, float, double, char>; //bool
 
 TYPED_TEST_SUITE(QueueTest, MyTypes);
+
+TYPED_TEST(QueueTest, MyVerify)
+{
+    this->queue_one.push(this->val1);
+    this->queue_one.push(this->val2);
+
+    EXPECT_TRUE(this->queue_one.front() != this->queue_one.back());
+}
 
 TYPED_TEST(QueueTest, IsEmpty)
 {
@@ -30,6 +36,26 @@ TYPED_TEST(QueueTest, IsEmpty)
     EXPECT_TRUE(this->queue_two.is_empty());
 }
 
+TYPED_TEST(QueueTest, QueuePush)
+{
+    /*for (size_t i = 0; i < this->TEST_SIZE; ++i)
+    {
+        this->queue_one.push(this->val1);
+        this->queue_one.push(this->val2);
+        
+        //EXPECT_TRUE(this->queue_one.front() != this->queue_one.back());
+    }
+    */
+    //this->queue_one.push(this->val1);
+    //this->queue_one.push(this->val2);
+    this->queue_one.push(3);
+    this->queue_one.push(4);
+    
+    EXPECT_TRUE(this->queue_one.front() == 3);
+    //EXPECT_TRUE(this->queue_one.back() == this->val2);
+}
+
+#if 0
 TYPED_TEST(QueueTest, QueuePush)
 {
     for (size_t i = 0; i < this->TEST_SIZE; ++i)
@@ -45,6 +71,7 @@ TYPED_TEST(QueueTest, QueuePush)
         EXPECT_TRUE(this->queue_one.back() == this->queue_two.back());
     }
 }
+#endif
 
 TYPED_TEST(QueueTest, QueuePop)
 {

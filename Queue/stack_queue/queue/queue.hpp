@@ -21,14 +21,14 @@ public:
     bool operator==(const Queue &other) const;
     bool operator!=(const Queue &other) const;
 
-    void push(const T &value);
+    void push(const T value);
     void pop();
 
     const T &back() const;
     T &back();
     T &front();
 
-    void swap(Queue &other); //?+
+    void swap(Queue &other);
     bool is_empty() const;
     size_t size() const;
 
@@ -38,7 +38,7 @@ private:
     Stack<T> right_stk_;
     Stack<T> left_stk_;
 };
-
+/*
 template<>
 class Queue<bool>
 {
@@ -54,25 +54,23 @@ public:
     bool operator==(const Queue &other) const;
     bool operator!=(const Queue &other) const;
 
-    void push(bool value); //?+
+    void push(bool value);
     void pop();
 
     bool front();
     bool back() const;
 
-    void swap(Queue &other); //?+
+    void swap(Queue &other);
     bool is_empty() const;
     size_t size() const;
 
 private:
     void move_data();
 
-    // stack::Stack<bool> right_stk_;
     Stack<bool> right_stk_;
     Stack<bool> left_stk_;
-    // stack::Stack<bool> left_stk_;
 };
-
+*/
 } // namespace queue
 
-#endif //_INCLUDE_QUEUE_QUEUE_HPP
+#endif //_INCLUDE_QUEUE_QUEUE_HPP_

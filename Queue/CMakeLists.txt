@@ -7,42 +7,25 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)  
 set(CMAKE_CXX_EXTINSION OFF)
 
-# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pedantic -Wextra -Wall  -Wshadow ") # -Werror
-# set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-exceptions")
-
-add_compile_options(
-    -Wall
-    -Wextra
-    -Wpedantic
-
-    -Wcast-align
-    -Wcast-qual
-    -Wconversion
-    
-    -Wenum-compare
-    -Wfloat-equal
-    -Wnon-virtual-dtor
-    -Wold-style-cast
-    -Woverloaded-virtual
-    -Wredundant-decls
-    -Wsign-conversion
-    -Wsign-promo
-
-    -fno-elide-constructors
-)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pedantic -Wextra -Wall  -Wshadow ") # -Werror
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-exceptions")
 
 option(ADD_TIDY "Activate clang-tidy" OFF)
 option(ADD_FORMAT "Activate clang-format" OFF)
 option(ADD_BENCHMARK "Activate benchmarks" OFF)
 option(ADD_TESTING "Activate google-testing" ON)
 
-# set(INCLUDES stackinclude)
+#set(INCLUDES stack include)
 
 add_library(queue INTERFACE)
 
-# target_include_directories(queue INTERFACE stack_queue/queue stack_queue/stack list_queue)
+#target_include_directories(queue INTERFACE stack_queue/stack)
 
-target_include_directories(queue INTERFACE stack_queue list_queue)
+
+target_include_directories(queue INTERFACE stack_queue/queue stack_queue/stack) #list_queue)
+# target_include_directories(queue INTERFACE list_queue)
+
+# target_include_directories(queue INTERFACE stack_queue list_queue)
 # link_directories(stack_queue/queue stack_queue/stack list_queue)
 # include_directories(stack_queue/queue stack_queue/stacl list_queue)
 

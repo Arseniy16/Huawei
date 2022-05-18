@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/queue_stack.dir/test.cpp.o  -o queue_stack  ../lib/libgtest_main.a ../lib/libgtest.a -lpthread 
+/usr/bin/c++   -pedantic -Wextra -Wall  -Wshadow  -fno-exceptions   CMakeFiles/queue_stack.dir/test.cpp.o  -o queue_stack  ../lib/libgtest_main.a ../lib/libgtest.a -lpthread 

@@ -4,7 +4,7 @@
 #include <cstdlib>
 #include <utility>
 
-namespace queue_list 
+namespace queue 
 {
 
 template<typename T>
@@ -19,10 +19,7 @@ public:
     ~Queue();
 
     Queue &operator=(Queue other);
-/*
-    Queue &operator=(const Queue &other);
-    Queue &operator=(Queue &&other);
-*/
+
     bool operator==(const Queue &other) const;
     bool operator!=(const Queue &other) const;
 

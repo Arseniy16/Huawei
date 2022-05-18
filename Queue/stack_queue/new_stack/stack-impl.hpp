@@ -2,9 +2,8 @@
 #define _INCLUDE_STACK_IMPL_HPP_
 
 #include "stack.hpp"
-
 #include <utility>
-#include <algorithm>
+//#include <algorithm>
 
 namespace queue
 {
@@ -32,7 +31,7 @@ Stack<T>::Stack(size_t size, const T *data)
     capacity_ = size;
     data_ = new T[size_];
 
-    for (size_t i = 0; i < size_; ++i)
+    for (size_t i = 0; i < size; ++i)
         data_[i] = data[i];
 }
 
@@ -158,9 +157,9 @@ void Stack<T>::expand()
 
     T *new_data = new T[capacity_];
 
-    std::copy(data_, data_ + size_, new_data);
+    std::move(data_, data_ + size_, new_data);
 
-    delete [] data_;
+    delete[] data_;
     data_ = new_data;
 }
 
@@ -169,6 +168,7 @@ void Stack<T>::change_coef_expand(double coef_expand)
 {
     coef_expand_ = coef_expand;
 }
+
 
 Stack<bool>::Stack()
 {
@@ -329,6 +329,6 @@ void Stack<bool>::expand()
     data_ = new_data;
 }
 
-} // namespace stack
+} // namespace queue
 
 #endif // _INCLUDE_STACK_IMPL_HPP_

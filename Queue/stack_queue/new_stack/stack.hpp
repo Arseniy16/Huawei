@@ -2,6 +2,7 @@
 #define _INCLUDE_STACK_HPP_
 
 #include <cstdlib>
+#include <cstddef>
 
 namespace queue
 {
@@ -48,6 +49,7 @@ private:
     size_t capacity_;
 };
 
+
 template <>
 class Stack<bool>
 {
@@ -87,6 +89,7 @@ private:
     size_t capacity_;
 };
 
-} // namespace stack
+
+} // namespace queue
 
 #endif //_INCLUDE_STACK_HPP_
